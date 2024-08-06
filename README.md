@@ -2,8 +2,10 @@
 Leveraging Self Distillation Multimodal Transformers for Sarcasm Detection
 
 
-This repository contains the code to:
-1) Code used to clean, preprocess, and perform feature extraction on the three modalities (audio, text, visual) of the MUStARD++ dataset
-2) Code of the binary classification model for sarcastic/non-sarcastic utterance and code to train it
-3) Code of the multiclass classification model for explicit and implicit emotion of an utterance and code to train it
-4) Code of the regression model for the valence/arousal quality of an utterance and code to train it
+This repository contains:
+1) preprocess_feature_extraction.py:
+   used to clean, preprocess, and perform feature extraction on the three modalities (audio, text, visual) of the MUStARD++ dataset
+2) hyperparameter_pretesting.ipynb:
+   notebook used to conduct exhaustive hyperparameter search across all ablation studies
+3) final_model.py:
+   script used to train final model and perform 5-fold cross validation on final evaluation metrics
