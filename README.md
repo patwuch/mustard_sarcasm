@@ -3,7 +3,7 @@ Leveraging Modality-Agnostic Self Distillation Transformers for Multimodal Sarca
 
 
 This repository contains:
-1) data_cleaning_keyframe.ipynb:
+1) keyframe_extraction.ipynb:
    notebook used to clean up mismatched instances and extract keyframes with Katna from MUStARD++
 3) preprocess_feature_extraction.py:
    used to clean, preprocess, and perform feature extraction on the three modalities (audio, text, visual) of the MUStARD++ dataset
