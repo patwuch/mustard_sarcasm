@@ -3,7 +3,7 @@ Leveraging Self Distillation Multimodal Transformers for Sarcasm Detection
 
 
 This repository contains:
-1) preprocess_feature_extraction.py:
+1) preprocess_feature_extraction.ipynb:
    used to clean, preprocess, and perform feature extraction on the three modalities (audio, text, visual) of the MUStARD++ dataset
 2) hyperparameter_pretesting.ipynb:
    notebook used to conduct exhaustive hyperparameter search across all ablation studies
